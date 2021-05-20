@@ -20,7 +20,7 @@ The code in this repository causes a segmentation fault when run with PHP 8.0.6 
 
 1. The reference to `$c['a']` on line 24 invokes `$getImplementations`.
 2. While iterating over `$c->keys()`, `$getImplementations` tries to access `$c['a']` on line 16.
-3. The reference to `$ca['a']` on line 16 invokes `$getImplementations`.
+3. The reference to `$c['a']` on line 16 invokes `$getImplementations`.
 4. Go to step 2.
 
 ## GDB Backtrace
