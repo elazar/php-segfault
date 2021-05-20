@@ -1,0 +1,778 @@
+PHP Warning:  Uncaught Error in exception handling during call to Error::__toString() in /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php on line 277
+PHP Stack trace:
+PHP   1. {main}() /home/matt/Code/Personal/sandbox/index.php:0
+PHP   2. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:24
+PHP   3. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP   4. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP   5. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP   6. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP   7. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP   8. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP   9. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  10. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  11. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  12. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  13. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  14. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  15. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  16. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  17. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  18. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  19. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  20. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  21. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  22. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  23. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  24. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  25. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  26. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  27. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  28. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  29. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  30. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  31. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  32. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  33. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  34. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  35. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  36. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  37. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  38. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  39. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  40. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  41. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  42. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  43. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  44. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  45. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  46. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  47. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  48. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  49. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  50. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  51. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  52. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  53. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  54. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  55. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  56. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  57. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  58. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  59. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  60. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  61. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  62. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  63. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  64. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  65. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  66. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  67. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  68. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  69. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  70. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  71. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  72. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  73. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  74. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  75. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  76. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  77. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  78. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  79. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  80. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  81. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  82. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  83. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  84. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  85. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  86. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  87. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  88. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  89. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  90. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  91. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  92. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  93. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  94. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  95. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  96. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  97. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  98. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  99. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 100. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 101. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 102. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 103. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 104. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 105. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 106. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 107. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 108. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 109. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 110. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 111. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 112. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 113. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 114. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 115. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 116. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 117. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 118. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 119. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 120. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 121. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 122. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 123. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 124. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 125. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 126. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 127. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 128. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 129. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 130. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 131. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 132. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 133. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 134. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 135. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 136. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 137. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 138. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 139. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 140. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 141. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 142. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 143. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 144. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 145. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 146. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 147. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 148. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 149. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 150. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 151. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 152. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 153. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 154. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 155. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 156. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 157. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 158. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 159. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 160. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 161. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 162. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 163. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 164. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 165. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 166. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 167. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 168. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 169. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 170. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 171. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 172. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 173. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 174. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 175. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 176. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 177. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 178. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 179. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 180. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 181. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 182. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 183. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 184. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 185. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 186. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 187. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 188. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 189. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 190. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 191. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 192. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 193. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 194. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 195. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 196. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 197. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 198. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 199. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 200. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 201. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 202. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 203. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 204. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 205. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 206. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 207. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 208. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 209. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 210. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 211. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 212. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 213. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 214. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 215. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 216. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 217. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 218. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 219. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 220. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 221. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 222. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 223. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 224. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 225. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 226. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 227. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 228. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 229. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 230. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 231. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 232. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 233. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 234. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 235. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 236. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 237. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 238. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 239. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 240. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 241. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 242. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 243. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 244. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 245. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 246. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 247. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 248. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 249. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 250. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 251. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 252. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 253. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 254. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 255. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 256. Pimple\Container->keys() /home/matt/Code/Personal/sandbox/index.php:15
+PHP Warning:  Uncaught Error: Xdebug has detected a possible infinite loop, and aborted your script with a stack depth of '256' frames in /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:277
+Stack trace:
+#0 {main}
+
+  thrown in /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php on line 277
+PHP Stack trace:
+PHP   1. {main}() /home/matt/Code/Personal/sandbox/index.php:0
+PHP   2. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:24
+PHP   3. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP   4. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP   5. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP   6. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP   7. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP   8. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP   9. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  10. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  11. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  12. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  13. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  14. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  15. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  16. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  17. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  18. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  19. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  20. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  21. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  22. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  23. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  24. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  25. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  26. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  27. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  28. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  29. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  30. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  31. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  32. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  33. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  34. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  35. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  36. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  37. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  38. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  39. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  40. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  41. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  42. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  43. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  44. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  45. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  46. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  47. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  48. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  49. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  50. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  51. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  52. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  53. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  54. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  55. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  56. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  57. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  58. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  59. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  60. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  61. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  62. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  63. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  64. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  65. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  66. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  67. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  68. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  69. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  70. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  71. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  72. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  73. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  74. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  75. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  76. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  77. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  78. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  79. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  80. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  81. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  82. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  83. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  84. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  85. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  86. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  87. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  88. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  89. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  90. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  91. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  92. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  93. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  94. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  95. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  96. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  97. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  98. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  99. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 100. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 101. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 102. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 103. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 104. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 105. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 106. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 107. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 108. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 109. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 110. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 111. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 112. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 113. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 114. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 115. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 116. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 117. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 118. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 119. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 120. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 121. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 122. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 123. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 124. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 125. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 126. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 127. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 128. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 129. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 130. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 131. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 132. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 133. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 134. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 135. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 136. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 137. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 138. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 139. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 140. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 141. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 142. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 143. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 144. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 145. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 146. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 147. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 148. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 149. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 150. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 151. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 152. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 153. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 154. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 155. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 156. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 157. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 158. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 159. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 160. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 161. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 162. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 163. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 164. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 165. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 166. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 167. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 168. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 169. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 170. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 171. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 172. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 173. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 174. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 175. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 176. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 177. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 178. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 179. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 180. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 181. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 182. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 183. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 184. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 185. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 186. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 187. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 188. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 189. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 190. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 191. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 192. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 193. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 194. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 195. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 196. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 197. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 198. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 199. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 200. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 201. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 202. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 203. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 204. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 205. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 206. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 207. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 208. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 209. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 210. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 211. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 212. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 213. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 214. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 215. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 216. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 217. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 218. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 219. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 220. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 221. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 222. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 223. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 224. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 225. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 226. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 227. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 228. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 229. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 230. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 231. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 232. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 233. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 234. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 235. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 236. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 237. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 238. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 239. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 240. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 241. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 242. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 243. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 244. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 245. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 246. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 247. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 248. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 249. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 250. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 251. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 252. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 253. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 254. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 255. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 256. Pimple\Container->keys() /home/matt/Code/Personal/sandbox/index.php:15
+PHP Fatal error:  __debuginfo() must return an array in /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php on line 277
+PHP Stack trace:
+PHP   1. {main}() /home/matt/Code/Personal/sandbox/index.php:0
+PHP   2. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:24
+PHP   3. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP   4. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP   5. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP   6. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP   7. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP   8. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP   9. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  10. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  11. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  12. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  13. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  14. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  15. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  16. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  17. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  18. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  19. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  20. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  21. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  22. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  23. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  24. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  25. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  26. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  27. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  28. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  29. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  30. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  31. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  32. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  33. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  34. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  35. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  36. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  37. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  38. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  39. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  40. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  41. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  42. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  43. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  44. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  45. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  46. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  47. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  48. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  49. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  50. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  51. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  52. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  53. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  54. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  55. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  56. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  57. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  58. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  59. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  60. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  61. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  62. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  63. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  64. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  65. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  66. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  67. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  68. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  69. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  70. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  71. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  72. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  73. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  74. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  75. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  76. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  77. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  78. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  79. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  80. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  81. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  82. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  83. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  84. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  85. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  86. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  87. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  88. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  89. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  90. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  91. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  92. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  93. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  94. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  95. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP  96. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP  97. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP  98. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP  99. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 100. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 101. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 102. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 103. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 104. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 105. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 106. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 107. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 108. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 109. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 110. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 111. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 112. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 113. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 114. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 115. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 116. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 117. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 118. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 119. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 120. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 121. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 122. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 123. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 124. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 125. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 126. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 127. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 128. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 129. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 130. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 131. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 132. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 133. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 134. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 135. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 136. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 137. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 138. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 139. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 140. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 141. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 142. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 143. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 144. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 145. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 146. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 147. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 148. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 149. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 150. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 151. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 152. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 153. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 154. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 155. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 156. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 157. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 158. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 159. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 160. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 161. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 162. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 163. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 164. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 165. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 166. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 167. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 168. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 169. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 170. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 171. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 172. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 173. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 174. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 175. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 176. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 177. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 178. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 179. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 180. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 181. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 182. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 183. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 184. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 185. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 186. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 187. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 188. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 189. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 190. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 191. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 192. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 193. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 194. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 195. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 196. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 197. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 198. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 199. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 200. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 201. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 202. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 203. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 204. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 205. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 206. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 207. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 208. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 209. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 210. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 211. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 212. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 213. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 214. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 215. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 216. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 217. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 218. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 219. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 220. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 221. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 222. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 223. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 224. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 225. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 226. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 227. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 228. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 229. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 230. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 231. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 232. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 233. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 234. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 235. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 236. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 237. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 238. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 239. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 240. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 241. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 242. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 243. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 244. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 245. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 246. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 247. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 248. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 249. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 250. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 251. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 252. array_reduce($array = [0 => 'HasMarker', 1 => 'a'], $callback = class Closure {  }, $initial = []) /home/matt/Code/Personal/sandbox/index.php:19
+PHP 253. {closure:/home/matt/Code/Personal/sandbox/index.php:16-18}($implementations = [0 => class HasMarker {  }], $key = 'a') /home/matt/Code/Personal/sandbox/index.php:19
+PHP 254. Pimple\Container->offsetGet($id = 'a') /home/matt/Code/Personal/sandbox/index.php:16
+PHP 255. {closure:/home/matt/Code/Personal/sandbox/index.php:14-20}($c = ...) /home/matt/Code/Personal/sandbox/vendor/pimple/pimple/src/Pimple/Container.php:118
+PHP 256. Pimple\Container->keys() /home/matt/Code/Personal/sandbox/index.php:15
